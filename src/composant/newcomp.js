@@ -11,9 +11,8 @@ const CompByeXo = ({couleur}) => {
     return(
         <div>
             <div style={{color}}>
-                Je suis un composant
+                <div onMouseOver={changeColor}>Je suis un composant</div>
             </div>
-            <button onClick={changeColor}>Changer la couleur</button>
         </div>
     );
 };
