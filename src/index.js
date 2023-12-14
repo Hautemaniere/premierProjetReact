@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CompByeXo from './composant/newcomp'
+import ExempleCondition from './exo29/composant29';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   { /* <App/> */ }
-  <CompByeXo couleur={'red'}/>
+  {/*<CompByeXo couleur={'red'}/>*/}
+  <ExempleCondition/>
   </React.StrictMode>
 );
 
