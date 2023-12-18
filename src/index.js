@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import CompByeXo from './composant/newcomp'
 import ExempleCondition from './exo29/composant29';
 import exo30 from './exo30/composant30';
+import Exo31 from './exo31/composant31';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,8 @@ root.render(
   {/* <App/> */}
   {/* <CompByeXo couleur={'red'}/> */}
   {/* <ExempleCondition/> */}
-  {exo30()}
+  {/*exo30()*/}
+  <Exo31/>
 
   </React.StrictMode>
 );
