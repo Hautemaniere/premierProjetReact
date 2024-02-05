@@ -8,6 +8,7 @@ import ExempleCondition from './exo29/composant29';
 import exo30 from './exo30/composant30';
 import Exo31 from './exo31/composant31';
 import Exo32 from './exo32/composant32';
+import Exo33 from './exo33/composant33';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,8 +20,8 @@ root.render(
   {/* <ExempleCondition/> */}
   {/*exo30()*/}
   {/*<Exo31/>*/}
-  <Exo32/>
-
+  {/*<Exo32/>*/}
+  {<Exo33/>}
   </React.StrictMode>
 );
 
